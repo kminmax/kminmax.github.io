@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+  <script>
+    (function() {
+      console.log('Cache busting script running...');
+      console.log('Current URL:', window.location.href);
+      
+      const urlParams = new URLSearchParams(window.location.search);
+      const timestampParam = urlParams.get('t');
+      const currentTime = Math.floor(Date.now() / 1000);
+      
+      console.log('Timestamp param:', timestampParam);
+      console.log('Current time:', currentTime);
+      
+      if (!timestampParam) {
+        console.log('No timestamp param found, redirecting...');
+        const newUrl = window.location.pathname + window.location.search + (window.location.search ? '&' : '?') + 't=' + currentTime;
+        console.log('New URL:', newUrl);
+        window.location.href = newUrl;
+      } else {
+        const paramTime = parseInt(timestampParam);
+        const timeDiff = Math.abs(currentTime - paramTime);
+        
+        console.log('Time diff:', timeDiff);
+        
+        // 10분(600초) 이상 차이나면 최신 타임스탬프로 리다이렉트
+        if (timeDiff > 600) {
+          console.log('Time diff > 600, redirecting...');
+          const newUrl = window.location.pathname + '?t=' + currentTime;
+          console.log('New URL:', newUrl);
+          window.location.href = newUrl;
+        } else {
+          console.log('Cache busting OK, no redirect needed');
+        }
+      }
+    })();
+  </script>
+
+</body>
+
+</html>

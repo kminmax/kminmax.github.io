@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kminmax.github.io/sitemap.xml
+
+# Disallow crawling of specific directories
+Disallow: /assets/
+Disallow: /_site/
+Disallow: /vendor/

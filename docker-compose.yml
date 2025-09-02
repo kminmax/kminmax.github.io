@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # For livereload
+    volumes:
+      - .:/site
+      - bundle_cache:/usr/local/bundle
+      # Exclude files that don't need to be synced
+      - /site/.git
+      - /site/_site
+      - /site/.jekyll-cache
+    environment:
+      - JEKYLL_ENV=development
+    # Enable faster file watching on macOS/Windows
+    stdin_open: true
+    tty: true
+
+volumes:
+  bundle_cache:
