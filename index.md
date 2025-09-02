@@ -1,6 +1,6 @@
 ---
 layout: chat
-title: "개발자 강성욱 포트폴리오"
+title: ""
 subtitle: "2"
 ---
 
