@@ -761,7 +761,7 @@
   background: #ffffff;
   color: #1a1a1a;
   border: 1px solid rgba(0, 0, 0, 0.12); /* 더 진한 경계선 */
-  border-bottom-left-radius: 4px;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* 더 강한 그림자 */
 }
 
@@ -1829,6 +1829,7 @@
   .message {
     max-width: 80%;
     font-size: 14px;
+    border-radius: 12px;
   }
 
   .avatar {

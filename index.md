@@ -684,7 +684,7 @@ subtitle: "2"
         <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
           <div style="margin-bottom: 12px;">
             <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">정보처리기사</h6>
-            <span style="color: #666; font-size: 14px;">취득일: 2022.06</span>
+            <span style="color: #666; font-size: 14px;">취득일: 2025.06</span>
           </div>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#국가기술자격</span>
