@@ -245,7 +245,7 @@ subtitle: "2"
           </div>
           <div class="info-content">
             <span class="info-label">근무 기간</span>
-            <span class="info-value">2022.12 ~ 2025.03</span>
+            <span class="info-value">2023.12 ~ 2025.09</span>
           </div>
         </div>
         <div class="info-card">
@@ -303,16 +303,25 @@ subtitle: "2"
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect width="14" height="14" x="1" y="5" rx="2" ry="2"/></svg>
             </div>
             <div>
-              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">Video Player Enhancement</h6>
+              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+                <a href="https://www.ncloud.com/product/media/videoPlayerEnhancement" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                  Video Player Enhancement
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </h6>
               <span style="color: #666; font-size: 14px;">네이버 클라우드 비디오 플레이어 서비스 및 분석 시스템 (2023.04 - 2025.03)</span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
-            <li>퍼블릭-프라이빗 서브넷 구조를 사용한 인프라 구축</li>
             <li>백엔드 담당자로 주간 회의에 참여하여 신규 기능 기획 및 유지보수 항목을 협의</li>
-            <li>플레이어에서 사용자 시청 행동을 분석하는 시스템을 개발하고, 데이터를 조합하여 통계로 제공</li>
-            <li>클라우드 서비스 운영을 위한 보안 컴플라이언스 적용 및 문서 작성</li>
-            <li>Email, OTP를 활용한 2차 인증 기능 구현 </li>
+            <li>보안 취약점 개선 SSRF 공격 방어 로직 구현 및 레거시 MD5 해시를 PBKDF2 알고리즘으로 전환</li>
+            <li>주기적 DB 백업본 복구 테스트 및 검증 프로세스 구축</li>
+            <li>장기 미접속 계정 대상 메일 발송 스케줄러 로직 구현</li>
+            <li>서비스 배포 및 운영 환경 관리</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#미디어 플레이어</span>
@@ -357,13 +366,22 @@ subtitle: "2"
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><circle cx="12" cy="10" r="2"/></svg>
             </div>
             <div>
-              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">비디오24</h6>
+              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+                <a href="https://video24.app/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                  비디오24
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </h6>
               <span style="color: #666; font-size: 14px;">B2B Online Video Platform 솔루션 (2023.12 - 2025.03)</span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
             <li>라이브 스트리밍, VOD 업로드 시스템 유지보수</li>
-            <li>관리자 CMS의 관리/조회/통계 API 개발</li>
+            <li>레거시 CDN을 마이그레이션하여 성능 최적화 및 비용 효율성 개선</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#Live/VOD 스트리밍</span>
