@@ -384,7 +384,7 @@ subtitle: "2"
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
             <li>라이브 스트리밍, VOD 업로드 시스템 유지보수</li>
-            <li>레거시 CDN을 마이그레이션하여 성능 최적화 및 비용 효율성 개선</li>
+            <li>레거시 CDN 마이그레이션 성능 최적화 및 비용 효율성 개선</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#Live/VOD 스트리밍</span>
@@ -429,10 +429,11 @@ subtitle: "2"
                 </a>
                 <span style="margin: 0 8px;"></span>
                 <a href="https://www.youtube.com/@shorts24-saas" target="_blank" style="color: #FF0000; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="#FF0000">
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                </svg>
-              </a>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                
+                </a>
               </h6>
               <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 숏폼 솔루션 (2024.02 - 2025.09)
               </span>
@@ -444,7 +445,7 @@ subtitle: "2"
             <li>사용자 크레딧 관리, 소모, 사용 내역 추적 및 실시간 잔액 업데이트 시스템 구축</li>
             <li>공지사항, 이용약관 관리 시스템 개발 및 수정 권한 기반 접근 제어 구현</li>
             <li>동영상 파일 라이프사이클 관리: 삭제 후 30일 보관 후 S3에서 자동 제거하는 스케줄러 구축</li>
-            <li>각종 API 개발: 사용자 인증, 콘텐츠 관리, 통계 수집 등 백엔드 API 전반 담당</li>
+            <li>각종 백앤드 API 개발: 사용자 인증, 콘텐츠 관리, 통계 수집 등 백엔드 API 전반 담당</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#숏폼</span>
@@ -496,13 +497,15 @@ subtitle: "2"
             <li>각종 오류 및 버그 수정, 시스템 안정성 향상을 위한 지속적인 유지보수</li>
             <li>DEV 서버 환경 구축: 리얼/로컬 환경에 DEV 단계를 추가하여 개발자 실수 방지 및 서비스 안정성 개선</li>
             <li>시청자수 동기화 스케줄러 개발 및 실시간 데이터 업데이트 시스템 구축</li>
-            <li>각종 백앤드 API 개발: 사용자 관리, 결제, 통계, 알림 등 전반적인 API 담당</li>
+            <li>각종 백앤드 API 개발: 사용자 관리, 결제, 통계, 알림 등 백엔드 API 전반 담당</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#라이브 커머스</span>
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#Web Push</span>
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#챗봇</span>
           </div>
+
+          
           
           <!-- 기술 스택 -->
           <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
@@ -523,7 +526,82 @@ subtitle: "2"
               <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">PHP</span>
 
             </div>
+            
           </div>
+
+          
+        </div>
+
+        <!-- 페이지24 카드 -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+          <div style="display: flex; align-items: center; margin-bottom: 12px;">
+            <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>            </div>
+            <div>
+              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+                <a href="https://page24.co.kr/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                  페이지24
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <span style="margin: 0 8px;"></span>
+                <a href="https://www.youtube.com/@page24-saas" target="_blank" style="color: #FF0000; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                
+                </a>
+              </h6>
+              <span style="color: #666; font-size: 14px;">웹사이트 제작 및 관리 플랫폼 (2023.06 - 2025.09)</span>
+            </div>
+          </div>
+          <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
+            <li>홈페이지 자동생성 AI 마법사 개발</li>
+            <li>네이버 플레이스 API 연동으로 홈페이지 자동생성 기능 구현</li>
+            <li>결제 시스템 총괄 및 구독 관리 기능 개발</li>
+            <li>휴지통 기능 구현 및 데이터 복구 시스템 개발</li>
+            <li>사이트 현황 모니터링 및 관리 시스템 구축</li>
+            <li>SSO 로그인 기능 구현 및 인증 시스템 개발</li>
+            <li>통계 기능 개발: 조회수, 매출 등 다양한 분석 데이터 제공</li>
+            <li>지도 API 연동 및 위치 기반 서비스 구현</li>
+            <li>홈페이지 사진 S3 업로드 및 CDN 설정</li>
+            <li>각종 백앤드 API 개발 및 DB 테이블 구축 및 데이터베이스 설계</li>
+         
+          </ul>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#웹사이트 빌더</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#템플릿 시스템</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#도메인 관리</span>
+          </div>
+
+          
+          
+          <!-- 기술 스택 -->
+          <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
+            <div style="display: flex; align-items: center; margin-bottom: 8px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right: 6px;">
+                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="#6c757d" opacity="0.8"/>
+                <path d="M12 8L8 10V14L12 16L16 14V10L12 8Z" fill="#6c757d"/>
+              </svg>
+              <span style="color: #6c757d; font-size: 13px; font-weight: 600;">기술 스택</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Node.js</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Vue.js</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Go</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">MySQL</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">NCP</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Redis</span>
+              <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">PHP</span>
+
+            </div>
+            
+          </div>
+
+          
         </div>
       </div>
     </div>
