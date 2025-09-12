@@ -12,7 +12,7 @@ github_username: kminmax
 author: "강성욱"
 lang: "ko"
 keywords: "백엔드 개발자, 포트폴리오, Node.js, AWS, Kubernetes, 강성욱"
-og_image: "/images/face2.jpeg"
+og_image: "/images/armin.jpg"
 
 # Build settings
 markdown: kramdown

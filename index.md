@@ -234,7 +234,7 @@ subtitle: "2"
         <h3>경력</h3>
       <div class="company-name">
         <img src="/images/sgrsoft.svg" alt="SGRSOFT" style="height: 24px; display: block; margin: 0 0 8px 0;">
-        <h4 style="margin: 0; font-size: 19px; font-weight: 700; color: #ffffff; background: linear-gradient(135deg, #000, #000); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">에스지알소프트</h4>
+        <h4 style="margin: 0; font-size: 19px; font-weight: 700; color: #ffffff; background: linear-gradient(135deg, #000, #000); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></h4>
       </div>
       
       <!-- 경력 기본 정보 카드 -->
