@@ -434,7 +434,7 @@ subtitle: "2"
                 </svg>
               </a>
               </h6>
-              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 숏폼 솔루션 (2024.02 - 2025.03)
+              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 숏폼 솔루션 (2024.02 - 2025.09)
               </span>
             </div>
           </div>
@@ -486,7 +486,7 @@ subtitle: "2"
                   </svg>
                 </a>
               </h6>
-              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 라이브 커머스 솔루션 (2022.12 - 2025.03)</span>
+              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 라이브 커머스 솔루션 (2023.12 - 2025.09)</span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
