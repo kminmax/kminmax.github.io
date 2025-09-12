@@ -787,8 +787,8 @@
 .message h4.company-name {
   font-size: 19px;
   font-weight: 700;
-  color: #1a472a;
-  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  color: #ffffff;
+  background: linear-gradient(135deg, #2980b9, #3498db);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -805,7 +805,7 @@
   transform: translateY(-50%);
   width: 4px;
   height: 20px;
-  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  background: linear-gradient(135deg, #2980b9, #3498db);
   border-radius: 2px;
 }
 
@@ -2362,14 +2362,14 @@
 }
 
 .pdf-mode .message h4.company-name {
-  color: #1a472a !important;
+  color: #2980b9 !important;
   font-size: 20px !important;
   font-weight: 700 !important;
   margin: 20px 0 16px 0 !important;
   padding-left: 12px !important;
   position: relative !important;
   background: none !important;
-  -webkit-text-fill-color: #1a472a !important;
+  -webkit-text-fill-color: #2980b9 !important;
   background-clip: unset !important;
   -webkit-background-clip: unset !important;
 }
@@ -2382,7 +2382,7 @@
   transform: translateY(-50%) !important;
   width: 4px !important;
   height: 18px !important;
-  background: #27ae60 !important;
+  background: #2980b9 !important;
   border-radius: 2px !important;
 }
 
@@ -2572,5 +2572,124 @@
 
   .pdf-mode .info-card {
     padding: 8px !important;
+  }
+}
+
+/* PDF 모달 스타일 */
+.pdf-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.pdf-modal-content {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 90vw;
+  max-height: 90vh;
+  width: 800px;
+  overflow: hidden;
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.pdf-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+}
+
+.pdf-modal-header h3 {
+  margin: 0;
+  color: #2980b9;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pdf-modal-close {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #666;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.pdf-modal-close:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.pdf-modal-body {
+  padding: 0;
+}
+
+.pdf-modal-body iframe {
+  border: none;
+  border-radius: 0 0 16px 16px;
+}
+
+/* 자격증 카드 호버 효과 */
+.message div[onclick*="openPdfModal"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+  border-color: #2980b9 !important;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .pdf-modal-content {
+    width: 95vw;
+    max-height: 85vh;
+  }
+  
+  .pdf-modal-header {
+    padding: 16px 20px;
+  }
+  
+  .pdf-modal-header h3 {
+    font-size: 16px;
+  }
+  
+  .pdf-modal-body iframe {
+    height: 400px !important;
   }
 }

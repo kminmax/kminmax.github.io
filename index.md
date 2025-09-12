@@ -113,16 +113,16 @@ subtitle: "2"
       <!-- 자기소개 텍스트 -->
       <div style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 12px; padding: 24px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);">
         <h4 style="margin: 0 0 20px 0; color: #2980b9; font-size: 18px; font-weight: 600; letter-spacing: -0.3px;">안녕하세요!</h4>
-        <p style="margin: 0 0 24px 0; color: #333; font-size: 16px; line-height: 1.75; font-weight: 500; letter-spacing: -0.2px;">스타트업에서 근무하며 다양한 서비스를 직접 경험해왔습니다. 서비스의 기획 단계부터 참여해 인프라 구축, DB 설계, 비즈니스 로직 등 백엔드 전반을 책임졌습니다. 작은 조직의 특성상 하나의 역할에 머무르지 않고 서비스 전반을 직접 설계하고 운영하며 빠르게 성장할 수 있었습니다.</p>
+        <p style="margin: 0 0 24px 0; color: #333; font-size: 16px; line-height: 1.75; font-weight: 500; letter-spacing: -0.2px;">안녕하세요! 2년차 백엔드 개발자입니다. 스타트업에서 다양한 서비스를 직접 개발하며 성장해왔습니다. 작은 팀의 특성상 백엔드뿐만 아니라 서비스 전반을 이해하고 기획부터 배포까지 함께 고민하며 일해왔습니다.</p>
         
         <!-- 구분선 -->
         <div style="border-bottom: 1px solid rgba(41, 128, 185, 0.15); margin: 20px 0;"></div>
         
-        <p style="margin: 0 0 16px 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">새로운 일을 맡으면 부담보다는 배우고 해결할 기회라고 생각합니다. 모르는 영역이라도 스스로 공부해 구현하고, 필요하다면 주 업무가 아니어도 팀에 필요한 일이라면 참여합니다.</p>
+        <p style="margin: 0 0 16px 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">새로운 일을 맡으면 부담보다는 <strong>배우고 해결할 기회</strong>라고 생각합니다. 처음 접하는 기술이나 영역이라도 빠르게 학습하여 구현하고, 팀의 성공을 위해 <strong>주 업무 범위를 넘어서 적극적으로 참여</strong>합니다.</p>
         
-        <p style="margin: 0 0 16px 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">팀 안에서는 혼자 결정하기보다는 제 의견을 적극적으로 공유하고 다른 의견과 조율해 더 나은 방법을 찾으려고 합니다.</p>
+        <p style="margin: 0 0 16px 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">협업에서는 <strong>소통과 조율</strong>을 중시합니다. 혼자 결정하기보다는 팀원들과 의견을 나누고, 다양한 관점을 수렴하여 <strong>최적의 솔루션</strong>을 찾아갑니다.</p>
         
-        <p style="margin: 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">무엇보다 기획 의도를 제대로 파악하고, 사용자가 실제로 어떻게 쓰게 될지 생각하며 기능을 설계합니다. 기능 하나하나가 서비스 전체 흐름에 맞아야 한다고 생각합니다.</p>
+        <p style="margin: 0; color: #666; font-size: 15px; line-height: 1.7; letter-spacing: -0.2px;">개발에 임할 때는 <strong>사용자 중심의 사고</strong>를 우선시합니다. 비즈니스 요구사항을 정확히 이해하고, 실제 사용자 경험을 고려하여 설계하며, <strong>서비스 전체의 일관성</strong>을 유지하는 것을 중요하게 생각합니다.</p>
       </div>
       <br/>
     </div>
@@ -232,7 +232,10 @@ subtitle: "2"
   <div class="answer">
     <div class="message">
         <h3>경력</h3>
-      <h4 class="company-name">에스지알소프트</h4>
+      <div class="company-name">
+        <img src="/images/sgrsoft.svg" alt="SGRSOFT" style="height: 24px; display: block; margin: 0 0 8px 0;">
+        <h4 style="margin: 0; font-size: 19px; font-weight: 700; color: #ffffff; background: linear-gradient(135deg, #000, #000); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">에스지알소프트</h4>
+      </div>
       
       <!-- 경력 기본 정보 카드 -->
       <div class="info-card-grid">
@@ -694,52 +697,91 @@ subtitle: "2"
     <div class="message">
       <h3>자격증</h3>
       
-      <!-- DevOps 자격증 그룹 -->
+      <!-- AI/ML 자격증 그룹 -->
       <div style="margin-bottom: 24px;">
-        <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">DevOps</h5>
+        <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">AI/ML</h5>
         
-        <!-- CKA 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+        <!-- TensorFlow 자격증 카드 -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/Credential Renderer - tensorflow certificate.pdf', 'TensorFlow Developer Certificate')">
           <div style="margin-bottom: 12px;">
-            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">Certified Kubernetes Administrator (CKA)</h6>
-            <span style="color: #666; font-size: 14px;">취득일: 2025.06</span>
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+              TensorFlow Developer Certificate
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color: #e74c3c;">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+            </h6>
+            <span style="color: #666; font-size: 14px;">취득일: 2023.06.10</span>
           </div>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#Kubernetes</span>
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#컨테이너 오케스트레이션</span>
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#클러스터 관리</span>
-          </div>
-        </div>
-        
-        <!-- AWS SAA 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-          <div style="margin-bottom: 12px;">
-            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">AWS Certified Solutions Architect (SAA)</h6>
-            <span style="color: #666; font-size: 14px;">취득일: 2025.05</span>
-          </div>
-          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#AWS</span>
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#솔루션 아키텍처</span>
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#클라우드 설계</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#TensorFlow</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#머신러닝</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#딥러닝</span>
           </div>
         </div>
       </div>
       
-      <!-- 국내 자격증 그룹 -->
+      <!-- 클라우드 자격증 그룹 -->
       <div style="margin-bottom: 24px;">
-        <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">국내 자격증</h5>
+        <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">클라우드</h5>
         
-        <!-- 정보처리기사 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+        <!-- NAVER Cloud Platform Professional 카드 -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/EDU PORTAL - NAVER CLOUD PLATFORM.pdf', 'NAVER Cloud Platform Professional')">
           <div style="margin-bottom: 12px;">
-            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">정보처리기사</h6>
-            <span style="color: #666; font-size: 14px;">취득일: 2025.06</span>
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+              NAVER Cloud Platform Professional
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color: #e74c3c;">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+            </h6>
+            <span style="color: #666; font-size: 14px;">취득일: 2023.08.03</span>
           </div>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#국가기술자격</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#NCP</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#클라우드</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#인프라</span>
           </div>
         </div>
-  
+        
+        <!-- NAVER Cloud Platform Expert 카드 -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/EDU PORTAL - NAVER CLOUD PLATFORM2.pdf', 'NAVER Cloud Platform Expert')">
+          <div style="margin-bottom: 12px;">
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+              NAVER Cloud Platform Expert
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color: #e74c3c;">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+            </h6>
+            <span style="color: #666; font-size: 14px;">취득일: 2023.08.04</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#NCP</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#클라우드</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#전문가</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 보안 자격증 그룹 -->
+      <div style="margin-bottom: 24px;">
+        <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">보안</h5>
+        
+        <!-- 정보처리기사 자격증 카드 -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/KISA.pdf', '정보처리기사')">
+          <div style="margin-bottom: 12px;">
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+              정보처리기사
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color: #e74c3c;">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+            </h6>
+            <span style="color: #666; font-size: 14px;">취득일: 2025.06.13</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#정보보안</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#KISA</span>
+            <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#보안관리</span>
+          </div>
+        </div>
       </div>
       
     </div>
@@ -751,5 +793,55 @@ subtitle: "2"
     <span>감사합니다. 좋은 하루 되세요 😊</span>
   </div>
 </div>
+
+<!-- PDF 모달 -->
+<div id="pdf-modal" class="pdf-modal" style="display: none;">
+  <div class="pdf-modal-overlay" onclick="closePdfModal()"></div>
+  <div class="pdf-modal-content">
+    <div class="pdf-modal-header">
+      <h3 id="pdf-modal-title">자격증</h3>
+      <button class="pdf-modal-close" onclick="closePdfModal()">&times;</button>
+    </div>
+    <div class="pdf-modal-body">
+      <iframe id="pdf-iframe" src="" width="100%" height="500px" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+// PDF 모달 기능
+function openPdfModal(pdfPath, title) {
+  const modal = document.getElementById('pdf-modal');
+  const iframe = document.getElementById('pdf-iframe');
+  const titleElement = document.getElementById('pdf-modal-title');
+  
+  // PDF 경로 설정
+  iframe.src = pdfPath;
+  titleElement.textContent = title;
+  
+  // 모달 표시
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden'; // 스크롤 방지
+}
+
+function closePdfModal() {
+  const modal = document.getElementById('pdf-modal');
+  const iframe = document.getElementById('pdf-iframe');
+  
+  // 모달 숨기기
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto'; // 스크롤 복원
+  
+  // iframe src 초기화 (메모리 절약)
+  iframe.src = '';
+}
+
+// ESC 키로 모달 닫기
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closePdfModal();
+  }
+});
+</script>
 
 
