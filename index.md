@@ -56,7 +56,7 @@ subtitle: "2"
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock3-icon lucide-clock-3"><path d="M12 6v6h4"/><circle cx="12" cy="12" r="10"/></svg>          </div>
           <div class="info-content">
             <span class="info-label">경력</span>
-            <span class="info-value">3년차</span>
+            <span class="info-value">2년차</span>
           </div>
         </div>
         
@@ -313,7 +313,7 @@ subtitle: "2"
                   </svg>
                 </a>
               </h6>
-              <span style="color: #666; font-size: 14px;">네이버 클라우드 비디오 플레이어 서비스 및 분석 시스템 (2023.04 - 2025.03)</span>
+              <span style="color: #666; font-size: 14px;">네이버 클라우드 비디오 플레이어 서비스 및 분석 시스템 (2025.03 - 2025.09)</span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
@@ -415,14 +415,33 @@ subtitle: "2"
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
             </div>
             <div>
-              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">쇼츠24</h6>
-              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 숏폼 솔루션 (2024.02 - 2025.03)</span>
+              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+                <a href="https://shorts24.app/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                  쇼츠24
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <span style="margin: 0 8px;"></span>
+                <a href="https://www.youtube.com/@shorts24-saas" target="_blank" style="color: #FF0000; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="#FF0000">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+              </h6>
+              <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 숏폼 솔루션 (2024.02 - 2025.03)
+              </span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
-            <li>카페24 API와 Webhook을 활용해 숏폼 콘텐츠와 상품 정보를 자동 연동 및 최신화</li>
-            <li>사용량 기반의 계단식 과금 모델을 설계·적용하고, 자동 결제 및 실패 재시도 기능을 개발</li>
-            <li>무료 체험기간과 크레딧 제공·차감·만료 기능을 개발하여 요금 체계에 연동</li>
+            <li>자동 결제 실패 시 클라이언트 알림 로직 구현 및 재시도 메커니즘 개발</li>
+            <li>플러그인 스토어 구매, 환불 전반적인 비즈니스 로직 설계 및 구현</li>
+            <li>사용자 크레딧 관리, 소모, 사용 내역 추적 및 실시간 잔액 업데이트 시스템 구축</li>
+            <li>공지사항, 이용약관 관리 시스템 개발 및 수정 권한 기반 접근 제어 구현</li>
+            <li>동영상 파일 라이프사이클 관리: 삭제 후 30일 보관 후 S3에서 자동 제거하는 스케줄러 구축</li>
+            <li>각종 API 개발: 사용자 인증, 콘텐츠 관리, 통계 수집 등 백엔드 API 전반 담당</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#숏폼</span>
@@ -454,15 +473,27 @@ subtitle: "2"
             <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tv-icon lucide-tv"><path d="m17 2-5 5-5-5"/><rect width="20" height="15" x="2" y="7" rx="2"/></svg>            </div>
             <div>
-              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">라이브24</h6>
+              <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+                <a href="https://live24.app/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                  라이브24
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </h6>
               <span style="color: #666; font-size: 14px;">쇼핑몰에서 사용하는 라이브 커머스 솔루션 (2022.12 - 2025.03)</span>
             </div>
           </div>
           <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
-            <li>라이브 방송에 필요한 방송 전·후의 비즈니스 로직 유지보수</li>
-            <li>방송 시작 시 브라우저 Web Push를 통한 유저 알림 기능 개발</li>
-            <li>무한스크롤에 필요한 랜덤 플레이리스트 API 구현</li>
-            <li>OpenAI API를 활용해 매출 정보, 채팅 내역 요약, 사용자 맞춤형 응답을 제공하는 대화형 챗봇 개발</li>
+            <li>분할 결제 인보이스 발행 로직 설계 및 구현</li>
+            <li>라이브 도중 채팅 내용으로 방송 관련 질문할 수 있는 AI 챗봇 개발</li>
+            <li>각종 월 매출, 통계 집계 API 개발 및 데이터 분석 시스템 구축</li>
+            <li>각종 오류 및 버그 수정, 시스템 안정성 향상을 위한 지속적인 유지보수</li>
+            <li>DEV 서버 환경 구축: 리얼/로컬 환경에 DEV 단계를 추가하여 개발자 실수 방지 및 서비스 안정성 개선</li>
+            <li>시청자수 동기화 스케줄러 개발 및 실시간 데이터 업데이트 시스템 구축</li>
+            <li>각종 백앤드 API 개발: 사용자 관리, 결제, 통계, 알림 등 전반적인 API 담당</li>
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#라이브 커머스</span>
