@@ -399,7 +399,7 @@ subtitle: "2"
             <li>통계 기능 개발: 조회수, 매출 등 다양한 분석 데이터 제공</li>
             <li>지도 API 연동 및 위치 기반 서비스 구현</li>
             <li>사진, 파일 S3 업로드 라이프사이클 관리 및 CDN 설정</li>
-            <li>각종 백앤드 API 개발 및 DB 테이블 구축 및 데이터베이스 설계</li>
+            <li>각종 백앤드 API 개발: 회원현황, 통계 수집, 미접속 회원 메일발송 등 백엔드 API 전반 담당</li>
           
           </ul>
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
@@ -622,147 +622,135 @@ subtitle: "2"
     <div class="message">
       <h3>프로젝트</h3>
       
-             <!-- 포트폴리오 웹사이트 프로젝트 카드 -->
-       <div class="project-card">
-         <div class="project-content">
-           <div class="project-info">
-             <div style="display: flex; align-items: center; margin-bottom: 12px;">
-               <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                   <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
-                   <polyline points="14,2 14,8 20,8"/>
-                 </svg>
-               </div>
-               <div>
-                 <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">개발자 포트폴리오 웹사이트</h6>
-                 <span style="color: #666; font-size: 14px;">Apple 스타일 대화형 포트폴리오 / 개인 프로젝트 (2024.12 - 현재)</span>
-               </div>
-             </div>
-             <p style="margin: 0 0 12px 0; color: #666; font-size: 14px; line-height: 1.5;">Apple의 디자인 시스템을 참고하여 만든 대화형 포트폴리오 웹사이트입니다. 사용자가 질문을 하면 답변이 나타나는 인터랙티브한 경험을 제공합니다.</p>
-             <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
-               <li>Apple 스타일의 모던한 UI/UX 디자인 적용</li>
-               <li>대화형 인터페이스로 사용자 참여도 향상</li>
-               <li>반응형 디자인으로 모바일/데스크톱 최적화</li>
-               <li>Jekyll 기반 정적 사이트로 빠른 로딩 속도</li>
-               <li>GitHub Pages를 통한 무료 호스팅</li>
-             </ul>
-             <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#개인 프로젝트</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#웹 디자인</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#반응형</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#인터랙티브</span>
-             </div>
-             
-             <!-- 기술 스택 -->
-             <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
-               <div style="display: flex; align-items: center; margin-bottom: 8px;">
-                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right: 6px;">
-                   <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="#6c757d" opacity="0.8"/>
-                   <path d="M12 8L8 10V14L12 16L16 14V10L12 8Z" fill="#6c757d"/>
-                 </svg>
-                 <span style="color: #6c757d; font-size: 13px; font-weight: 600;">기술 스택</span>
-               </div>
-               <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">HTML5</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">CSS3</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">JavaScript</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Jekyll</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">GitHub Pages</span>
-               </div>
-             </div>
-             <div style="margin-top: 12px;">
-               <a href="https://github.com/kminmax/kminmax.github.io" target="_blank" style="color: #2980b9; text-decoration: none; font-size: 13px;">
-                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 4px;">
-                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                 </svg>
-                 GitHub 저장소
-               </a>
-             </div>
-           </div>
-           <div class="project-image">
-             <div class="image-gallery">
-               <!-- 이미지 갤러리 컨테이너 -->
-               <div class="image-container">
-                 <div class="image-placeholder">
-                   <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                     <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                     <circle cx="8.5" cy="8.5" r="1.5"/>
-                     <polyline points="21,15 16,10 5,21"/>
-                   </svg>
-                   <p>포트폴리오 스크린샷</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
+      <!-- 중고거래 플랫폼 비트마켓 카드 -->
+      <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              <polyline points="9,22 9,12 15,12 15,22"/>
+            </svg>
+          </div>
+          <div>
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+              <a href="https://ksqrt.github.io/blog/Project-%EC%A4%91%EA%B3%A0%EA%B1%B0%EB%9E%98-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B9%84%ED%8A%B8%EB%A7%88%EC%BC%93/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                당근마켓 클론코딩
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15,3 21,3 21,9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </h6>
+            <span style="color: #666; font-size: 14px;">환경보호와 지속가능한 소비문화를 위한 중고거래 플랫폼 / 팀 프로젝트 (2023.05 - 2023.07)</span>
+          </div>
+        </div>
+        <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
+          <li>REST API 구축 및 설계 - JSON 포맷 기반 확장 가능한 아키텍처</li>
+          <li>쿠버네티스 구축 및 설계 - 마스터노드 1개, 워커노드 3개, 관리서버 1개</li>
+          <li>메인페이지 구현 - 상품 정보 출력, 무한스크롤 페이징, 상품 정렬 기능</li>
+          <li>상품 카테고리 처리 및 검색 기능 구현</li>
+          <li>STT 서비스 (음성 → 텍스트 AI) 기능 구현</li>
+          <li>이미지 서버(S3) 관리 및 설정</li>
+        </ul>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#팀 프로젝트</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#중고거래</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#쿠버네티스</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#STT</span>
+        </div>
+        
+        <!-- 기술 스택 -->
+        <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
+          <div style="display: flex; align-items: center; margin-bottom: 8px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right: 6px;">
+              <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="#6c757d" opacity="0.8"/>
+              <path d="M12 8L8 10V14L12 16L16 14V10L12 8Z" fill="#6c757d"/>
+            </svg>
+            <span style="color: #6c757d; font-size: 13px; font-weight: 600;">기술 스택</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Node.js</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">React</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">MongoDB</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Kubernetes</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">AWS S3</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Docker</span>
+          </div>
+        </div>
+        
+        <!-- 프로젝트 이미지 -->
+        <div style="margin-top: 16px;">
+          <img src="images/비트마켓.gif" alt="비트마켓 프로젝트 스크린샷" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+        </div>
+      </div>
        
-       <!-- API 서버 프로젝트 카드 -->
-       <div class="project-card">
-         <div class="project-content">
-           <div class="project-info">
-             <div style="display: flex; align-items: center; margin-bottom: 12px;">
-               <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                   <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                   <line x1="4" x2="4.01" y1="22" y2="22"/>
-                 </svg>
-               </div>
-               <div>
-                 <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">RESTful API 서버</h6>
-                 <span style="color: #666; font-size: 14px;">Node.js 기반 백엔드 API 서버 / 학습 프로젝트 (2024.10 - 2024.11)</span>
-               </div>
-             </div>
-             <p style="margin: 0 0 12px 0; color: #666; font-size: 14px; line-height: 1.5;">Node.js와 Express.js를 사용하여 RESTful API 서버를 구축한 학습 프로젝트입니다. 사용자 인증, 데이터 CRUD, 파일 업로드 등의 기능을 구현했습니다.</p>
-             <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
-               <li>JWT 기반 사용자 인증 및 권한 관리 시스템</li>
-               <li>MySQL 데이터베이스 연동 및 ORM 사용</li>
-               <li>파일 업로드 및 이미지 처리 기능</li>
-               <li>API 문서화 및 테스트 코드 작성</li>
-               <li>Docker 컨테이너화 및 배포 자동화</li>
-             </ul>
-             <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#학습 프로젝트</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#RESTful API</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#JWT 인증</span>
-               <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#Docker</span>
-             </div>
-             
-             <!-- 기술 스택 -->
-             <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
-               <div style="display: flex; align-items: center; margin-bottom: 8px;">
-                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right: 6px;">
-                   <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="#6c757d" opacity="0.8"/>
-                   <path d="M12 8L8 10V14L12 16L16 14V10L12 8Z" fill="#6c757d"/>
-                 </svg>
-                 <span style="color: #6c757d; font-size: 13px; font-weight: 600;">기술 스택</span>
-               </div>
-               <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Node.js</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Express.js</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">MySQL</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">JWT</span>
-                 <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Docker</span>
-               </div>
-             </div>
-           </div>
-           <div class="project-image">
-             <div class="image-gallery">
-               <!-- 이미지 갤러리 컨테이너 -->
-               <div class="image-container">
-                 <div class="image-placeholder">
-                   <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                     <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                     <circle cx="8.5" cy="8.5" r="1.5"/>
-                     <polyline points="21,15 16,10 5,21"/>
-                   </svg>
-                   <p>API 서버 구조도</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
+      <!-- 유튜브 클론코딩 카드 -->
+      <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <div style="margin-right: 12px; color: #2980b9; margin-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="14" x="2" y="3" rx="2"/>
+              <path d="M8 21h8"/>
+              <path d="M12 17v4"/>
+              <circle cx="12" cy="10" r="2"/>
+            </svg>
+          </div>
+          <div>
+            <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600;">
+              <a href="https://ksqrt.github.io/blog/Project-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9/" target="_blank" style="color: #2980b9; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+                유튜브 클론코딩
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.7;">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15,3 21,3 21,9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </h6>
+            <span style="color: #666; font-size: 14px;">유튜브 웹사이트를 모방한 동영상 플랫폼 / 개인 학습 프로젝트 (2023.08 - 2023.09)</span>
+          </div>
+        </div>
+        <ul style="margin: 0 0 12px 0; color: #777; font-size: 14px; line-height: 1.4;">
+          <li>동영상 업로드 및 스트리밍 기능 구현</li>
+          <li>사용자 인증 및 프로필 관리 시스템</li>
+          <li>댓글 시스템 및 좋아요/싫어요 기능</li>
+          <li>구독 및 알림 시스템 개발</li>
+          <li>동영상 검색 및 카테고리 분류 기능</li>
+          <li>반응형 웹 디자인 적용</li>
+          <li>데이터베이스 설계 및 최적화</li>
+        </ul>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#개인 프로젝트</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#클론코딩</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#동영상</span>
+          <span style="background: rgba(41, 128, 185, 0.1); color: #2980b9; padding: 3px 8px; border-radius: 4px; font-size: 12px;">#스트리밍</span>
+        </div>
+        
+        <!-- 기술 스택 -->
+        <div style="margin-top: 16px; padding: 12px; background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.06); border-radius: 8px;">
+          <div style="display: flex; align-items: center; margin-bottom: 8px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right: 6px;">
+              <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" fill="#6c757d" opacity="0.8"/>
+              <path d="M12 8L8 10V14L12 16L16 14V10L12 8Z" fill="#6c757d"/>
+            </svg>
+            <span style="color: #6c757d; font-size: 13px; font-weight: 600;">기술 스택</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Node.js</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">Express.js</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">MongoDB</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">React</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">AWS S3</span>
+            <span style="background: rgba(41,128,185,0.08); color: #2980b9; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500;">JWT</span>
+          </div>
+          
+        </div>
+        
+      </div>
+              <!-- 프로젝트 이미지 -->
+        <div style="margin-top: 16px;">
+          <img src="images/youtubeclone.png" alt="유튜브 클론코딩 프로젝트 스크린샷" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+        </div>
     </div>
   </div>
 </div>
