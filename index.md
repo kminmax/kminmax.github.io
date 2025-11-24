@@ -771,7 +771,7 @@ subtitle: "2"
         <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">AI/ML</h5>
         
         <!-- TensorFlow 자격증 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/Credential Renderer - tensorflow certificate.pdf', 'TensorFlow Developer Certificate')">
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;">
           <div style="margin-bottom: 12px;">
             <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
               TensorFlow Developer Certificate
@@ -794,7 +794,7 @@ subtitle: "2"
         <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">클라우드</h5>
         
         <!-- NAVER Cloud Platform Professional 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/EDU PORTAL - NAVER CLOUD PLATFORM.pdf', 'NAVER Cloud Platform Professional')">
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" >
           <div style="margin-bottom: 12px;">
             <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
               NAVER Cloud Platform Professional
@@ -812,7 +812,7 @@ subtitle: "2"
         </div>
         
         <!-- NAVER Cloud Platform Expert 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/EDU PORTAL - NAVER CLOUD PLATFORM2.pdf', 'NAVER Cloud Platform Expert')">
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;">
           <div style="margin-bottom: 12px;">
             <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
               NAVER Cloud Platform Expert
@@ -835,7 +835,7 @@ subtitle: "2"
         <h5 style="color: #000; margin-bottom: 16px; font-size: 17px; font-weight: 600;">보안</h5>
         
         <!-- 정보처리기사 자격증 카드 -->
-        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;" onclick="openPdfModal('pdf/KISA.pdf', '정보처리기사')">
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); cursor: pointer; transition: all 0.2s ease;">
           <div style="margin-bottom: 12px;">
             <h6 style="margin: 0; color: #2980b9; font-size: 17px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
               정보처리기사
