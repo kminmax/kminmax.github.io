@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.data.portfolio.name }} | {{ site.data.portfolio.role }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/terminal.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="terminal-buttons">
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <div class="terminal-title">{{ site.data.portfolio.name }}@portfolio:~ - {{ page.title }}</div>
+    </div>
+    <div class="terminal-body">
+      <div id="boot-log" style="font-size: 12px; margin-bottom: 20px; color: #8b949e;"></div>
+
+      <div class="command-block" id="intro-neofetch">
+        <div class="neofetch-container">
+          <div class="ascii-waifu">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;\______/&nbsp;&nbsp;&nbsp;&nbsp;\<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;O&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;O&nbsp;|&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\__/&nbsp;&nbsp;&nbsp;&nbsp;\__/&nbsp;&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\__/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\______________/
+          </div>
+          <div class="system-info">
+            <p><span class="icon color-pink">👤</span> <span class="info-key">User</span> <span
+                class="arrow color-pink">></span> <span class="value">kminmax</span></p>
+            <p><span class="icon color-green">💻</span> <span class="info-key">OS</span> <span
+                class="arrow color-green">></span> <span class="value">Kang Portfolio OS</span></p>
+            <p><span class="icon color-blue">⚙️</span> <span class="info-key">Kernel</span> <span
+                class="arrow color-blue">></span> <span class="value">v2.1.0-stable</span></p>
+            <p><span class="icon color-cyan">🔳</span> <span class="info-key">CPU</span> <span
+                class="arrow color-cyan">></span> <span class="value">Backend Developer</span></p>
+            <p><span class="icon color-orange">🎮</span> <span class="info-key">GPU</span> <span
+                class="arrow color-orange">></span> <span class="value">DevOps / Cloud</span></p>
+            <p><span class="icon color-yellow">🌈</span> <span class="info-key">Shell</span> <span
+                class="arrow color-yellow">></span> <span class="value">oh-my-zsh</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="command-block" data-command="whoami">
+        <span class="prompt"></span><span class="command" data-text="whoami"></span>
+        <div class="output indent">
+          <span class="key">Name:</span> <span class="string">"{{ site.data.portfolio.name }}"</span><br>
+          <span class="key">Role:</span> <span class="string">"{{ site.data.portfolio.role }}"</span><br>
+          <span class="key">Experience:</span> <span class="string">"{{ site.data.portfolio.years_exp }}
+            years"</span><br>
+          <span class="key">Contact:</span> <span class="string">"<a href="mailto:{{ site.data.portfolio.email }}"
+              style="color: inherit;">{{ site.data.portfolio.email }}</a>"</span><br>
+          <span class="key">Links:</span> [<a href="{{ site.data.portfolio.github }}" target="_blank"
+            style="color: #60a5fa;">GitHub</a>, <a href="{{ site.data.portfolio.blog }}" target="_blank"
+            style="color: #60a5fa;">Blog</a>]
+        </div>
+      </div>
+
+      <div class="command-block" data-command="cat bio.txt">
+        <span class="prompt"></span><span class="command" data-text="cat bio.txt"></span>
+        <div class="output indent">
+          <span class="comment"># {{ site.data.portfolio.bio | replace: "\n", "<br># " }}</span>
+        </div>
+      </div>
+
+      <div class="command-block" data-command="ls -R skills/">
+        <span class="prompt"></span><span class="command" data-text="ls -R skills/"></span>
+        <div class="output indent">
+          {% for category in site.data.portfolio.skills %}
+          <span class="section-title">{{ category[0] | capitalize }}:</span>
+          <div class="indent">
+            {% for skill in category[1] %}
+            <span class="list-item">{{ skill }}</span><br>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="command-block" data-command="history --career">
+        <span class="prompt"></span><span class="command" data-text="history --career"></span>
+        <div class="output indent">
+          {% for exp in site.data.portfolio.experience %}
+          <span class="section-title">[{{ exp.period }}] {{ exp.company }} ({{ exp.type }})</span><br>
+          <span class="key">Position:</span> <span class="string">{{ exp.role }}</span><br>
+          <div class="indent">
+            {% for project in exp.projects %}
+            <span class="keyword">Project:</span> {{ project.name }} ({{ project.period }})<br>
+            <span class="comment">// {{ project.summary }}</span><br>
+            <div class="indent">
+              {% for task in project.tasks %}
+              <span class="list-item">{{ task }}</span><br>
+              {% endfor %}
+              <span class="key">Stack:</span> <span class="string">{{ project.tech | join: ", " }}</span><br>
+            </div>
+            <br>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="command-block" data-command="ls ./projects">
+        <span class="prompt"></span><span class="command" data-text="ls ./projects"></span>
+        <div class="output indent">
+          {% for project in site.data.portfolio.projects %}
+          <span class="section-title">{{ project.name }} ({{ project.type }})</span><br>
+          <span class="comment"># {{ project.summary }}</span><br>
+          <div class="indent">
+            {% for task in project.tasks %}
+            <span class="list-item">{{ task }}</span><br>
+            {% endfor %}
+            <span class="key">Tech:</span> <span class="string">{{ project.tech | join: ", " }}</span><br>
+          </div>
+          <br>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="command-block" data-command="ls certifications/">
+        <span class="prompt"></span><span class="command" data-text="ls certifications/"></span>
+        <div class="output indent">
+          {% for cert in site.data.portfolio.certifications %}
+          <span class="list-item">{{ cert.name }} (<span class="string">{{ cert.date }}</span>)</span><br>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="command-block" data-command="exit">
+        <span class="prompt"></span><span class="command" data-text="exit"></span>
+        <div class="output indent">
+          <div class="ascii-art" style="margin-top: 40px; line-height: 1.1; font-family: var(--font-mono);">
+            <span style="color: #ff5f56;">&nbsp;&nbsp;_____&nbsp;</span><span
+              style="color: #ffbd2e;">_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+              style="color: #27c93f;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+              style="color: #58a6ff;">&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+              style="color: #bc8cff;">__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__</span><br>
+            <span style="color: #ff5f56;">&nbsp;|_&nbsp;&nbsp;&nbsp;_|&nbsp;</span><span
+              style="color: #ffbd2e;">|&nbsp;</span><span
+              style="color: #27c93f;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+              style="color: #58a6ff;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+              style="color: #bc8cff;">|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;&nbsp;/&nbsp;/<br>
+              <span style="color: #ff5f56;">&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;|</span><span
+                style="color: #ffbd2e;">&nbsp;|_&nbsp;&nbsp;__&nbsp;_&nbsp;</span><span
+                style="color: #27c93f;">_&nbsp;__&nbsp;&nbsp;</span><span
+                style="color: #58a6ff;">|&nbsp;|__&nbsp;</span><span
+                style="color: #bc8cff;">&nbsp;&nbsp;&nbsp;\&nbsp;\_/&nbsp;/&nbsp;</span><span
+                style="color: #39c5cf;">___&nbsp;&nbsp;</span><span
+                style="color: #d29922;">_&nbsp;&nbsp;&nbsp;_</span><br>
+              <span style="color: #ff5f56;">&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;|</span><span
+                style="color: #ffbd2e;">&nbsp;'_&nbsp;\/&nbsp;_`&nbsp;|</span><span
+                style="color: #27c93f;">&nbsp;'_&nbsp;\&nbsp;</span><span
+                style="color: #58a6ff;">|&nbsp;'__/&nbsp;</span><span
+                style="color: #bc8cff;">&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;/&nbsp;</span><span
+                style="color: #39c5cf;">/&nbsp;_&nbsp;\|</span><span
+                style="color: #d29922;">&nbsp;|&nbsp;|&nbsp;|</span><br>
+              <span style="color: #ff5f56;">&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;|</span><span
+                style="color: #ffbd2e;">&nbsp;|&nbsp;|&nbsp;|&nbsp;(_|&nbsp;|</span><span
+                style="color: #27c93f;">&nbsp;|&nbsp;|&nbsp;|</span><span
+                style="color: #58a6ff;">|&nbsp;|__&nbsp;&nbsp;</span><span
+                style="color: #bc8cff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;</span><span
+                style="color: #39c5cf;">|&nbsp;(_)&nbsp;|</span><span
+                style="color: #d29922;">&nbsp;|_|&nbsp;|</span><br>
+              <span style="color: #ff5f56;">&nbsp;&nbsp;&nbsp;\_/&nbsp;|</span><span
+                style="color: #ffbd2e;">_|&nbsp;|_|\__,_|</span><span style="color: #27c93f;">_|&nbsp;|_|</span><span
+                style="color: #58a6ff;">\____|</span><span
+                style="color: #bc8cff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_|&nbsp;</span><span
+                style="color: #39c5cf;">\___/&nbsp;</span><span style="color: #d29922;">\__,_|</span>
+              <br><br>
+              <span style="color: #3fb950; font-weight: bold;">....is now disconnecting!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="command-block" id="terminal-cursor-block">
+        <span class="prompt"></span><span class="cursor"></span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const bootLogs = [
+      "[  OK  ] Loading kernel modules...",
+      "[  OK  ] Initializing system hardware...",
+      "[  OK  ] Mounting network file systems...",
+      "[  OK  ] Starting Portfolio Storage Engine...",
+      "[  OK  ] User 'kang' login successful at " + new Date().toISOString(),
+      "Welcome to Kang Portfolio OS v2.1.0-stable",
+      "------------------------------------------",
+      "Type 'help' for a list of available commands.",
+      "Scroll down to initialize session..."
+    ];
+
+    async function typeText(element, text, speed = 40) {
+      if (element.classList.contains('typing')) return;
+      element.classList.add('typing');
+      element.classList.add('typing-cursor');
+      element.innerHTML = "";
+      for (let i = 0; i < text.length; i++) {
+        element.innerHTML += text.charAt(i);
+        await new Promise(resolve => setTimeout(resolve, speed));
+      }
+      element.classList.remove('typing-cursor');
+      element.classList.remove('typing');
+      element.classList.add('finished');
+    }
+
+    async function runBootLog() {
+      const container = document.getElementById('boot-log');
+      for (const log of bootLogs) {
+        container.innerHTML += log + "<br>";
+        await new Promise(resolve => setTimeout(resolve, 80));
+      }
+      await new Promise(resolve => setTimeout(resolve, 300));
+    }
+
+    let isAnimating = false;
+    const animatedBlocks = new Set();
+    let bootFinished = false;
+
+    async function animateBlock(block) {
+      if (!bootFinished || animatedBlocks.has(block) || isAnimating) return;
+
+      const allBlocks = Array.from(document.querySelectorAll('.command-block:not(#terminal-cursor-block)'));
+      const currentIndex = allBlocks.indexOf(block);
+
+      // Strict order check
+      if (currentIndex > 0) {
+        const prevBlock = allBlocks[currentIndex - 1];
+        if (!animatedBlocks.has(prevBlock)) return;
+
+        const prevCommand = prevBlock.querySelector('.command');
+        if (prevCommand && !prevCommand.classList.contains('finished')) return;
+      }
+
+      isAnimating = true;
+      animatedBlocks.add(block);
+      block.style.opacity = "1";
+      block.classList.add('reveal');
+
+      const commandEl = block.querySelector('.command');
+      const outputEl = block.querySelector('.output');
+
+      if (commandEl) {
+        const text = commandEl.getAttribute('data-text');
+        if (outputEl) outputEl.style.display = 'none';
+        await typeText(commandEl, text);
+        if (outputEl) {
+          outputEl.style.display = 'block';
+          outputEl.classList.add('reveal');
+        }
+      }
+
+      isAnimating = false;
+
+      // Auto-trigger next if it's already in view
+      checkVisibleBlocks();
+    }
+
+    function checkVisibleBlocks() {
+      const blocks = document.querySelectorAll('.command-block:not(#terminal-cursor-block)');
+      blocks.forEach(block => {
+        const rect = block.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.9 && rect.bottom > 0) {
+          animateBlock(block);
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Force scroll to top
+      window.scrollTo(0, 0);
+      document.body.style.overflow = "hidden"; // Disable scroll during boot
+
+      await runBootLog();
+      bootFinished = true;
+      document.body.style.overflow = "auto";
+
+      // Initial check for first block
+      checkVisibleBlocks();
+
+      window.addEventListener('scroll', () => {
+        checkVisibleBlocks();
+      });
+
+      // Manual click fallback
+      document.addEventListener('click', () => {
+        if (bootFinished) checkVisibleBlocks();
+      });
+    });
+  </script>
+</body>
+
+</html>

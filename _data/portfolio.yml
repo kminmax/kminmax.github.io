@@ -1,0 +1,93 @@
+name: 강성욱
+role: Backend Developer
+years_exp: 2
+email: ksqrt.work@gmail.com
+github: https://github.com/kminmax
+blog: https://velog.io/@kminmax
+bio: |
+  안녕하세요! 2년차 백엔드 개발자입니다. 스타트업에서 다양한 서비스를 직접 개발하며 성장해왔습니다.
+  작은 팀의 특성상 백엔드뿐만 아니라 서비스 전반을 이해하고 기획부터 배포까지 함께 고민하며 일해왔습니다.
+  사용자 중심의 사고와 빠른 학습 능력을 바탕으로 팀의 성공에 기여합니다.
+
+education:
+  - school: 홍익대학교
+    major: 소프트웨어 융합학과
+    period: 2017.03 - 2024.08
+
+skills:
+  backend: [Node.js, Go, PHP]
+  database: [MySQL, PostgreSQL, Redis, Firestore]
+  devops: [AWS, NCP, Docker, Kubernetes, Kafka]
+  frontend: [Vue.js, Nuxt.js, React]
+
+experience:
+  - company: SGRSOFT
+    period: 2023.12 - 2025.09
+    type: Startup (Series A)
+    role: Backend Developer (Media Solution Group)
+    projects:
+      - name: Video Player Enhancement (NCP)
+        period: 2025.03 - 2025.09
+        summary: NCP 비디오 플레이어 및 분석 시스템 백엔드 총괄
+        tasks:
+          - SSRF 방어 및 PBKDF2 보안 전환 등 보안 취약점 개선
+          - DB 백업 복구 테스트 및 검증 프로세스 자동화
+          - 장기 미접속 계정 스케줄러 개발
+        tech: [Node.js, Nuxt.js, Go, PostgreSQL, Redis, NCP, Kafka]
+
+      - name: Page24 (Website Builder)
+        period: 2025.01 - 2025.09
+        summary: SaaS 기반 웹사이트 제작 플랫폼 백엔드 개발
+        tasks:
+          - AI 마법사(Naver Place API 연동)를 통한 홈페이지 자동 생성
+          - 결제 및 구독 관리 시스템 구축
+          - 데이터 복구 시스템(휴지통) 구현
+        tech: [Node.js, Vue.js, Go, MySQL, NCP, Redis, PHP]
+
+      - name: Shorts24 (Short-form Solution)
+        period: 2024.02 - 2025.09
+        summary: 쇼핑몰 연동 숏폼 솔루션 비즈니스 로직 개발
+        tasks:
+          - 사용자 크레딧 관리 및 실시간 잔액 업데이트 시스템
+          - 플러그인 스토어 결제/환불 로직 설계
+          - S3 기반 동영상 라이프사이클 관리 스케줄러
+        tech: [Node.js, Nuxt.js, MySQL, NCP]
+
+      - name: Live24 (Live Commerce)
+        period: 2023.12 - 2025.09
+        summary: 실시간 라이브 커머스 솔루션 고도화
+        tasks:
+          - 방송 데이터 기반 AI Q&A 챗봇 개발
+          - 시청자수 동기화 및 매출 집계 API 구축
+          - DEV 환경 구축을 통한 안정성 개선
+        tech: [Node.js, Vue.js, Go, MySQL, NCP, Firestore, PHP]
+
+projects:
+  - name: 당근마켓 클론코딩
+    type: Team
+    period: 2023.05 - 2023.07
+    summary: K8s 기반 중고거래 플랫폼
+    tasks:
+      - REST API 및 마이크로서비스 아키텍처 설계
+      - Kubernetes 클러스터 구축 (Master x1, Worker x3)
+      - STT AI 기능을 통한 검색 편의성 증대
+    tech: [Node.js, React, MongoDB, Kubernetes, AWS S3]
+
+  - name: 유튜브 클론코딩
+    type: Individual
+    period: 2023.08 - 2023.09
+    summary: 동영상 스트리밍 플랫폼 학습 프로젝트
+    tasks:
+      - JWT 기반 인증 및 동영상 업로드/스트리밍 구현
+      - 반응형 웹 디자인 및 댓글/좋아요 기능
+    tech: [Node.js, Express, MongoDB, React, AWS S3]
+
+certifications:
+  - name: TensorFlow Developer Certificate
+    date: 2023.06
+  - name: NAVER Cloud Platform Professional
+    date: 2023.08
+  - name: NAVER Cloud Platform Expert
+    date: 2023.08
+  - name: 정보처리기사
+    date: 2025.06 (Expected)
